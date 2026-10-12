@@ -1,0 +1,42 @@
+
+p {
+    color: darkblue;
+    font-size: 16px;
+}
+h1,h2 {
+    color:olive;
+    font-size: 22px;
+    font-weight: bold;
+}
+.learn-more {
+    background-color: #f34343;
+    color:white;
+    font-size: 16px;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 5px;
+}
+.learn-more:hover {
+    background-color: #f34343;
+    color: black;
+    font-size: 16px;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 5px;
+}
+.mini-cards {
+    display: flex;
+    flex-direction: column;
+    background-color:beige;
+    padding: 30px;
+    border: 1px solid black;
+    margin-top: 70px;
+    font-size: 16px;
+}
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
